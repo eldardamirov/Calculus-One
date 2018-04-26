@@ -15,6 +15,7 @@
 		868EA33A2091C42500A8CA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868EA3382091C42500A8CA89 /* LaunchScreen.storyboard */; };
 		868EA3452091C42600A8CA89 /* Calculus_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA3442091C42600A8CA89 /* Calculus_OneTests.swift */; };
 		868EA3502091C42600A8CA89 /* Calculus_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */; };
+		868EA35E2091C73000A8CA89 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA35D2091C73000A8CA89 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		868EA34B2091C42600A8CA89 /* Calculus OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculus OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculus_OneUITests.swift; sourceTree = "<group>"; };
 		868EA3512091C42600A8CA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868EA35D2091C73000A8CA89 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				868EA32C2091C42500A8CA89 /* AppDelegate.swift */,
 				868EA32E2091C42500A8CA89 /* ViewController.swift */,
 				868EA3302091C42500A8CA89 /* Main.storyboard */,
+				868EA35D2091C73000A8CA89 /* Model.swift */,
 				868EA3362091C42500A8CA89 /* Assets.xcassets */,
 				868EA3382091C42500A8CA89 /* LaunchScreen.storyboard */,
 				868EA33B2091C42500A8CA89 /* Info.plist */,
@@ -265,6 +268,7 @@
 				868EA3352091C42500A8CA89 /* Calculus_One.xcdatamodeld in Sources */,
 				868EA32F2091C42500A8CA89 /* ViewController.swift in Sources */,
 				868EA32D2091C42500A8CA89 /* AppDelegate.swift in Sources */,
+				868EA35E2091C73000A8CA89 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
