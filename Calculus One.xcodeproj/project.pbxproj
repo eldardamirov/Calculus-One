@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868EA32D2091C42500A8CA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA32C2091C42500A8CA89 /* AppDelegate.swift */; };
+		868EA32F2091C42500A8CA89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA32E2091C42500A8CA89 /* ViewController.swift */; };
+		868EA3322091C42500A8CA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868EA3302091C42500A8CA89 /* Main.storyboard */; };
+		868EA3352091C42500A8CA89 /* Calculus_One.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 868EA3332091C42500A8CA89 /* Calculus_One.xcdatamodeld */; };
+		868EA3372091C42500A8CA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868EA3362091C42500A8CA89 /* Assets.xcassets */; };
+		868EA33A2091C42500A8CA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868EA3382091C42500A8CA89 /* LaunchScreen.storyboard */; };
+		868EA3452091C42600A8CA89 /* Calculus_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA3442091C42600A8CA89 /* Calculus_OneTests.swift */; };
+		868EA3502091C42600A8CA89 /* Calculus_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		868EA3412091C42500A8CA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868EA3212091C42500A8CA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868EA3282091C42500A8CA89;
+			remoteInfo = "Calculus One";
+		};
+		868EA34C2091C42600A8CA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868EA3212091C42500A8CA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868EA3282091C42500A8CA89;
+			remoteInfo = "Calculus One";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868EA3292091C42500A8CA89 /* Calculus One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculus One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868EA32C2091C42500A8CA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		868EA32E2091C42500A8CA89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		868EA3312091C42500A8CA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		868EA3342091C42500A8CA89 /* Calculus_One.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculus_One.xcdatamodel; sourceTree = "<group>"; };
+		868EA3362091C42500A8CA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		868EA3392091C42500A8CA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		868EA33B2091C42500A8CA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868EA3402091C42500A8CA89 /* Calculus OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculus OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868EA3442091C42600A8CA89 /* Calculus_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculus_OneTests.swift; sourceTree = "<group>"; };
+		868EA3462091C42600A8CA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868EA34B2091C42600A8CA89 /* Calculus OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculus OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculus_OneUITests.swift; sourceTree = "<group>"; };
+		868EA3512091C42600A8CA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868EA3262091C42500A8CA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868EA33D2091C42500A8CA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868EA3482091C42600A8CA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868EA3202091C42500A8CA89 = {
+			isa = PBXGroup;
+			children = (
+				868EA32B2091C42500A8CA89 /* Calculus One */,
+				868EA3432091C42600A8CA89 /* Calculus OneTests */,
+				868EA34E2091C42600A8CA89 /* Calculus OneUITests */,
+				868EA32A2091C42500A8CA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868EA32A2091C42500A8CA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868EA3292091C42500A8CA89 /* Calculus One.app */,
+				868EA3402091C42500A8CA89 /* Calculus OneTests.xctest */,
+				868EA34B2091C42600A8CA89 /* Calculus OneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868EA32B2091C42500A8CA89 /* Calculus One */ = {
+			isa = PBXGroup;
+			children = (
+				868EA32C2091C42500A8CA89 /* AppDelegate.swift */,
+				868EA32E2091C42500A8CA89 /* ViewController.swift */,
+				868EA3302091C42500A8CA89 /* Main.storyboard */,
+				868EA3362091C42500A8CA89 /* Assets.xcassets */,
+				868EA3382091C42500A8CA89 /* LaunchScreen.storyboard */,
+				868EA33B2091C42500A8CA89 /* Info.plist */,
+				868EA3332091C42500A8CA89 /* Calculus_One.xcdatamodeld */,
+			);
+			path = "Calculus One";
+			sourceTree = "<group>";
+		};
+		868EA3432091C42600A8CA89 /* Calculus OneTests */ = {
+			isa = PBXGroup;
+			children = (
+				868EA3442091C42600A8CA89 /* Calculus_OneTests.swift */,
+				868EA3462091C42600A8CA89 /* Info.plist */,
+			);
+			path = "Calculus OneTests";
+			sourceTree = "<group>";
+		};
+		868EA34E2091C42600A8CA89 /* Calculus OneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */,
+				868EA3512091C42600A8CA89 /* Info.plist */,
+			);
+			path = "Calculus OneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868EA3282091C42500A8CA89 /* Calculus One */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868EA3542091C42600A8CA89 /* Build configuration list for PBXNativeTarget "Calculus One" */;
+			buildPhases = (
+				868EA3252091C42500A8CA89 /* Sources */,
+				868EA3262091C42500A8CA89 /* Frameworks */,
+				868EA3272091C42500A8CA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculus One";
+			productName = "Calculus One";
+			productReference = 868EA3292091C42500A8CA89 /* Calculus One.app */;
+			productType = "com.apple.product-type.application";
+		};
+		868EA33F2091C42500A8CA89 /* Calculus OneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868EA3572091C42600A8CA89 /* Build configuration list for PBXNativeTarget "Calculus OneTests" */;
+			buildPhases = (
+				868EA33C2091C42500A8CA89 /* Sources */,
+				868EA33D2091C42500A8CA89 /* Frameworks */,
+				868EA33E2091C42500A8CA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868EA3422091C42500A8CA89 /* PBXTargetDependency */,
+			);
+			name = "Calculus OneTests";
+			productName = "Calculus OneTests";
+			productReference = 868EA3402091C42500A8CA89 /* Calculus OneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		868EA34A2091C42600A8CA89 /* Calculus OneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868EA35A2091C42600A8CA89 /* Build configuration list for PBXNativeTarget "Calculus OneUITests" */;
+			buildPhases = (
+				868EA3472091C42600A8CA89 /* Sources */,
+				868EA3482091C42600A8CA89 /* Frameworks */,
+				868EA3492091C42600A8CA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868EA34D2091C42600A8CA89 /* PBXTargetDependency */,
+			);
+			name = "Calculus OneUITests";
+			productName = "Calculus OneUITests";
+			productReference = 868EA34B2091C42600A8CA89 /* Calculus OneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868EA3212091C42500A8CA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Эльдар Дамиров";
+				TargetAttributes = {
+					868EA3282091C42500A8CA89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					868EA33F2091C42500A8CA89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 868EA3282091C42500A8CA89;
+					};
+					868EA34A2091C42600A8CA89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 868EA3282091C42500A8CA89;
+					};
+				};
+			};
+			buildConfigurationList = 868EA3242091C42500A8CA89 /* Build configuration list for PBXProject "Calculus One" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868EA3202091C42500A8CA89;
+			productRefGroup = 868EA32A2091C42500A8CA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868EA3282091C42500A8CA89 /* Calculus One */,
+				868EA33F2091C42500A8CA89 /* Calculus OneTests */,
+				868EA34A2091C42600A8CA89 /* Calculus OneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868EA3272091C42500A8CA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868EA33A2091C42500A8CA89 /* LaunchScreen.storyboard in Resources */,
+				868EA3372091C42500A8CA89 /* Assets.xcassets in Resources */,
+				868EA3322091C42500A8CA89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868EA33E2091C42500A8CA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868EA3492091C42600A8CA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868EA3252091C42500A8CA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868EA3352091C42500A8CA89 /* Calculus_One.xcdatamodeld in Sources */,
+				868EA32F2091C42500A8CA89 /* ViewController.swift in Sources */,
+				868EA32D2091C42500A8CA89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868EA33C2091C42500A8CA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868EA3452091C42600A8CA89 /* Calculus_OneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868EA3472091C42600A8CA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868EA3502091C42600A8CA89 /* Calculus_OneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		868EA3422091C42500A8CA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868EA3282091C42500A8CA89 /* Calculus One */;
+			targetProxy = 868EA3412091C42500A8CA89 /* PBXContainerItemProxy */;
+		};
+		868EA34D2091C42600A8CA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868EA3282091C42500A8CA89 /* Calculus One */;
+			targetProxy = 868EA34C2091C42600A8CA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		868EA3302091C42500A8CA89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868EA3312091C42500A8CA89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		868EA3382091C42500A8CA89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868EA3392091C42500A8CA89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		868EA3522091C42600A8CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		868EA3532091C42600A8CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868EA3552091C42600A8CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Calculus One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eldardamirov.Calculus-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		868EA3562091C42600A8CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Calculus One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eldardamirov.Calculus-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		868EA3582091C42600A8CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Calculus OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eldardamirov.Calculus-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculus One.app/Calculus One";
+			};
+			name = Debug;
+		};
+		868EA3592091C42600A8CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Calculus OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eldardamirov.Calculus-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculus One.app/Calculus One";
+			};
+			name = Release;
+		};
+		868EA35B2091C42600A8CA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Calculus OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eldardamirov.Calculus-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculus One";
+			};
+			name = Debug;
+		};
+		868EA35C2091C42600A8CA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Calculus OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eldardamirov.Calculus-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculus One";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868EA3242091C42500A8CA89 /* Build configuration list for PBXProject "Calculus One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868EA3522091C42600A8CA89 /* Debug */,
+				868EA3532091C42600A8CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868EA3542091C42600A8CA89 /* Build configuration list for PBXNativeTarget "Calculus One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868EA3552091C42600A8CA89 /* Debug */,
+				868EA3562091C42600A8CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868EA3572091C42600A8CA89 /* Build configuration list for PBXNativeTarget "Calculus OneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868EA3582091C42600A8CA89 /* Debug */,
+				868EA3592091C42600A8CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868EA35A2091C42600A8CA89 /* Build configuration list for PBXNativeTarget "Calculus OneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868EA35B2091C42600A8CA89 /* Debug */,
+				868EA35C2091C42600A8CA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		868EA3332091C42500A8CA89 /* Calculus_One.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				868EA3342091C42500A8CA89 /* Calculus_One.xcdatamodel */,
+			);
+			currentVersion = 868EA3342091C42500A8CA89 /* Calculus_One.xcdatamodel */;
+			path = Calculus_One.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 868EA3212091C42500A8CA89 /* Project object */;
+}
