@@ -16,6 +16,7 @@
 		868EA3452091C42600A8CA89 /* Calculus_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA3442091C42600A8CA89 /* Calculus_OneTests.swift */; };
 		868EA3502091C42600A8CA89 /* Calculus_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */; };
 		868EA35E2091C73000A8CA89 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EA35D2091C73000A8CA89 /* Model.swift */; };
+		86D9C9922094E3E300ED8876 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D9C9912094E3E300ED8876 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		868EA34F2091C42600A8CA89 /* Calculus_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculus_OneUITests.swift; sourceTree = "<group>"; };
 		868EA3512091C42600A8CA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		868EA35D2091C73000A8CA89 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		86D9C9912094E3E300ED8876 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				868EA32C2091C42500A8CA89 /* AppDelegate.swift */,
 				868EA32E2091C42500A8CA89 /* ViewController.swift */,
+				86D9C9912094E3E300ED8876 /* Constants.swift */,
 				868EA3302091C42500A8CA89 /* Main.storyboard */,
 				868EA35D2091C73000A8CA89 /* Model.swift */,
 				868EA3362091C42500A8CA89 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D9C9922094E3E300ED8876 /* Constants.swift in Sources */,
 				868EA3352091C42500A8CA89 /* Calculus_One.xcdatamodeld in Sources */,
 				868EA32F2091C42500A8CA89 /* ViewController.swift in Sources */,
 				868EA32D2091C42500A8CA89 /* AppDelegate.swift in Sources */,

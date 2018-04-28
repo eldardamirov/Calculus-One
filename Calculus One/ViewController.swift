@@ -36,22 +36,25 @@ class ViewController: UIViewController
     
     func initTitles()
         {
-        
         // init number buttons titles;
-        NSAttributedStringKey stringKey (  )
-        NSDictionary attributes
+        let attributesForNumpad = [ NSAttributedStringKey.font: fontForNumbers ];
         
         let numberButtonTitles = [ "7", "8", "9", "4", "5", "6", "1", "2", "3", "0" ];
         
-        print ( "size: \( numberButtonArray.count )" );
-        
-        for currentButtonIndex in numberButtonArray.indices
+        if ( numberButtonTitles.count == numberButtonArray.count )
             {
-            NSAttributedString
-//            numberButtonArray [ currentButtonIndex ].setTitle
-            numberButtonArray [ currentButtonIndex ].setTitle ( numberButtonTitles [ currentButtonIndex ], for: .normal );
-            print ( "\( numberButtonTitles [ currentButtonIndex ] )" );
+            for currentButtonIndex in numberButtonArray.indices
+                {
+                numberButtonArray [ currentButtonIndex ].setAttributedTitle ( NSAttributedString ( string: numberButtonTitles [ currentButtonIndex ], attributes: attributesForNumpad ), for: .normal );
+                }
             }
+        else 
+            {
+            NSLog ( "[Error] Titling: different number of numpad buttons and titles!" );
+            }
+        
+        // ------------------------------------
+        
         
         
         }
