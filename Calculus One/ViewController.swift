@@ -26,26 +26,43 @@ class ViewController: UIViewController
         }
 
     @IBOutlet var numberButtonArray: [ UIButton ]!;
+    @IBOutlet var operatorButtonArray: [ UIButton ]!;
+
     
     
-    @IBAction func numberButtonTouched(_ sender: Any) 
+    @IBAction func numberButtonTouched ( _ sender: Any ) 
         {
+//        numberButtonTitles [ numberButtonArray.index(of: sender as! UIButton )! ] -- touched button value in Int;  
+        print ( "Here am I: \( numberButtonTitles [ numberButtonArray.index(of: sender as! UIButton )! ] )" );
+        }
         
+    @IBAction func operatorButtonTouched ( _ sender: Any )
+        {
+//        print ( "Here am I: \(  [ numberButtonArray.index ( of: sender as! UIButton )! ] )" );
         }
     
     
+    var isNightMode: Bool = false;
+    var currentColorScheme: colorThemes
+    
     func initTitles()
         {
-        // init number buttons titles;
-        let attributesForNumpad = [ NSAttributedStringKey.font: fontForNumbers ];
+        if ( isNightMode == false )
+            {
+            
+            }
         
-        let numberButtonTitles = [ "7", "8", "9", "4", "5", "6", "1", "2", "3", "0" ];
+        var buttonText = textStyle ( textSize: fontForNumbersSize, textColor:  );
+        // init number buttons titles;
+        let attributesForNumpadNumbers = [ NSAttributedStringKey.font: fontForNumbers ];
+        
+//        let numberButtonTitles = [ "7", "8", "9", "4", "5", "6", "1", "2", "3", "0" ];
         
         if ( numberButtonTitles.count == numberButtonArray.count )
             {
             for currentButtonIndex in numberButtonArray.indices
                 {
-                numberButtonArray [ currentButtonIndex ].setAttributedTitle ( NSAttributedString ( string: numberButtonTitles [ currentButtonIndex ], attributes: attributesForNumpad ), for: .normal );
+                numberButtonArray [ currentButtonIndex ].setAttributedTitle ( NSAttributedString ( string: numberButtonTitles [ currentButtonIndex ], attributes: attributesForNumpadNumbers ), for: .normal );
                 }
             }
         else 
@@ -54,6 +71,9 @@ class ViewController: UIViewController
             }
         
         // ------------------------------------
+        
+        // init operator buttons titles;
+//        let attributesForNumpadOperators = [ NSAttributedStringKey.font: fontForOperators, NSAttributedStringKey. ];
         
         
         

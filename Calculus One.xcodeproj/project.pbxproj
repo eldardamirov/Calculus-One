@@ -112,6 +112,7 @@
 				868EA3382091C42500A8CA89 /* LaunchScreen.storyboard */,
 				868EA33B2091C42500A8CA89 /* Info.plist */,
 				868EA3332091C42500A8CA89 /* Calculus_One.xcdatamodeld */,
+				869A25DB2095175800A5F485 /* Recources */,
 			);
 			path = "Calculus One";
 			sourceTree = "<group>";
@@ -132,6 +133,13 @@
 				868EA3512091C42600A8CA89 /* Info.plist */,
 			);
 			path = "Calculus OneUITests";
+			sourceTree = "<group>";
+		};
+		869A25DB2095175800A5F485 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
