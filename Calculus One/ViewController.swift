@@ -43,20 +43,24 @@ class ViewController: UIViewController
     
     
     var isNightMode: Bool = false;
-    var currentColorScheme: colorThemes
+    var currentColorScheme: colorTheme = lightTheme;
     
-    func initTitles()
+    private func initTitles()
         {
         if ( isNightMode == false )
             {
-            
+            currentColorScheme = lightTheme;
+            }
+        else
+            {
+            currentColorScheme = darkTheme;
             }
         
-        var buttonText = textStyle ( textSize: fontForNumbersSize, textColor:  );
+        var buttonText = textStyle ( textSize: fontForNumbersSize, textColor: currentColorScheme.numpadButtonTextColor );
         // init number buttons titles;
         let attributesForNumpadNumbers = [ NSAttributedStringKey.font: fontForNumbers ];
         
-//        let numberButtonTitles = [ "7", "8", "9", "4", "5", "6", "1", "2", "3", "0" ];
+        let numberButtonTitles = [ "7", "8", "9", "4", "5", "6", "1", "2", "3", "0" ];
         
         if ( numberButtonTitles.count == numberButtonArray.count )
             {
@@ -78,6 +82,8 @@ class ViewController: UIViewController
         
         
         }
+        
+    private func 
     
     }
 

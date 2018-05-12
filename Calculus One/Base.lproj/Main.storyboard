@@ -33,7 +33,7 @@
                                 <rect key="frame" x="94" y="247" width="93" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title="()"/>
+                                <state key="normal" title="("/>
                                 <connections>
                                     <action selector="operatorButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F81-fZ-aqO"/>
                                 </connections>
@@ -42,7 +42,7 @@
                                 <rect key="frame" x="188" y="247" width="93" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title="%"/>
+                                <state key="normal" title=")"/>
                                 <connections>
                                     <action selector="operatorButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qgp-qA-arJ"/>
                                 </connections>
